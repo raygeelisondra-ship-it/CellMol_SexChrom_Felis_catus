@@ -14,7 +14,7 @@
 * **Autosomes (Group A)**: 18 primary RefSeq autosomes (NC_058368.1 through NC_058385.1). These were chosen to establish a stable, uniform autosomal baseline mapping depth across the diploid genome.
 * **X Chromosome (Group X)**: RefSeq accession NC_058386.1 (Feline X chromosome) designated to evaluate X-linked dosage relative to the autosomal median.
 * **Exclusions**: Unplaced genomic scaffolds (`NW_*`), alternate haplotypes, and mitochondrial DNA (`NC_001700.*`) were strictly excluded to prevent mapping distortions and coverage anomalies. Y-chromosome reads were absent (`NA`).
-* 
+  
 ## Questions for the report
 1. **What species did you choose, and what evidence supports a diploid XX/XY or ZZ/ZW system?**
    * *Answer*: *Felis catus* was chosen, which utilizes a standard mammalian diploid XX/XY sex-determination system supported by cytogenetic and genomic evidence demonstrating homomorphic XX females and heteromorphic XY males.
