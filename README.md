@@ -13,8 +13,8 @@
 ## Chromosome Groups & Selection (`chromosome_groups.csv`)
 * **Autosomes (Group A)**: 18 primary RefSeq autosomes (NC_058368.1 through NC_058385.1). These were chosen to establish a stable, uniform autosomal baseline mapping depth across the diploid genome.
 * **X Chromosome (Group X)**: RefSeq accession NC_058386.1 (Feline X chromosome) designated to evaluate X-linked dosage relative to the autosomal median.
-* **Exclusions**: Unplaced genomic scaffolds (NW_*), alternate haplotypes, and mitochondrial DNA (NC_001700.*) were strictly excluded to prevent mapping distortions and coverage anomalies. Y-chromosome reads were absent (NA).
-
+* **Exclusions**: Unplaced genomic scaffolds (`NW_*`), alternate haplotypes, and mitochondrial DNA (`NC_001700.*`) were strictly excluded to prevent mapping distortions and coverage anomalies. Y-chromosome reads were absent (`NA`).
+* 
 ## Questions for the report
 1. **What species did you choose, and what evidence supports a diploid XX/XY or ZZ/ZW system?**
    * *Answer*: *Felis catus* was chosen, which utilizes a standard mammalian diploid XX/XY sex-determination system supported by cytogenetic and genomic evidence demonstrating homomorphic XX females and heteromorphic XY males.
@@ -29,3 +29,8 @@
    * *Answer*: Yes, the calculated ratio of 0.932 aligns with expected biological female metadata records. Minor deviations from 1.0 stem from normal sequencing and mapping variations.
 6. **Why is a chromosome-level assembly alone insufficient for a reliable read-depth sex inference?**
    * *Answer*: A chromosome-level FASTA assembly provides structural reference coordinates but contains no sequencing read data; determining biological sex requires empirical mapping depth data from aligned WGS reads.
+  
+## References & Resources
+* **NCBI Genome Reference**: [Felis catus Assembly GCF_018350175.1](https://www.ncbi.nlm.nih.gov/assembly/GCF_018350175.1)
+* **NCBI SRA Run**: [SRR25054052 Entry](https://www.ncbi.nlm.nih.gov/sra/SRR25054052)
+* **Galaxy Platform**: [UseGalaxy.org](https://usegalaxy.org)
